@@ -1,7 +1,9 @@
 <ul>
     <li><a href="/index.html">ספר <span class="caps">PHP</span></a>
         <ul>
-            <li><a href="מבוא.html">מה זה פה</a></li>
+            <li><a href="מבוא.html">
+מבוא ל-php
+            </a></li>
             <li><s><a href="התקנת-php.html">התקנה והפעלה</a></s></li>
             <li><s><a href="סקריפט-php-ראשון.html">הסקריפט הראשון</a></s></li>
         </ul></li>
