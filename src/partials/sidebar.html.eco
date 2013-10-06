@@ -1,0 +1,43 @@
+<ul>
+    <li><a href="/index.html">ספר <span class="caps">PHP</span></a>
+        <ul>
+            <li><a href="מבוא.html">מה זה פה</a></li>
+            <li><s><a href="התקנת-php.html">התקנה והפעלה</a></s></li>
+            <li><s><a href="סקריפט-php-ראשון.html">הסקריפט הראשון</a></s></li>
+        </ul></li>
+    <li><s><a href="משתנים.html">משתנים</a></s>
+        <ul>
+            <li><s><a href="סוגי-נתונים.html">סוגי נתונים</a></s></li>
+            <li><s><a href="אופרטורים.html">פעולות</a></s></li>
+            <li><s><a href=".קבועים.html">קבועים</a></s></li>
+            <li><s><a href="בוחן-משתנים.html">בוחן פתע</a></s></li>
+            <li><s><a href="חיבור-וחיסור-שטויות.html">על חיבור וחיסור שטויות</a></s></li>
+        </ul></li>
+    <li><s><a href="מבני-בקרה.html">מחליטים מה לעשות</a></s>
+        <ul>
+            <li><s><a href="לולאות.html">לולאות</a></s></li>
+            <li><s><a href="תנאים.html">תנאים</a></s></li>
+            <li><s><a href="פונקציות.html">פונקציות</a></s></li>
+            <li><s><a href="בוחן-מבני-בקרה.html">מבדק</a></s></li>
+        </ul></li>
+    <li><s><a href="פונקציות.html">פונקציות מובנות</a></s>
+        <ul>
+            <li><s><a href="שעה-ותאריך.html">שעה ותאריך</a></s></li>
+            <li><s><a href="פונקציות-מתמטיות.html">קצת מתמטיקה</a></s></li>
+            <li><s><a href="עבודה-עם-קבצים.html">עבודה עם קבצים</a></s></li>
+            <li><s><a href="תרגיל-קבצים.html">שיעורי בית</a></s></li>
+            <li><s><a href="בוחן-פונקציות.html">בחן אותנו</a></s></li>
+        </ul></li>
+    <li><s><a href="מערכים.html">מערכים</a></s>
+        <ul>
+            <li><s><a href="מערכים2.html">ממממההההה?</a></s></li>
+            <li><s><a href="מערכים3.html">יש הסבר יותר פשוט על מערכים?</a></s></li>
+            <li><s><a href="מערכים4.html">איך ניגשים לערכים</a></s></li>
+            <li><s><a href="לולאות-ומערכים.html">לולאות ומערכים</a></s></li>
+            <li><s><a href="פונקציות-מערכים.html">פונקציות מובנות</a></s></li>
+            <li><s><a href="בוחן-מערכים.html">בוחן פתע</a></s></li>
+        </ul></li>
+</ul>
+<ul>
+    <li><a style='color:#505aff; font-weight:bold;' href="עריכת-הספר.html">כתוב פרק</a></li>
+</ul>

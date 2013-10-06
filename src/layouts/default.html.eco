@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title><%= @getPreparedTitle() %></title>
+        <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+        <meta name="description" content="<%= @getPreparedDescription() %>" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body dir="rtl">
+
+        <div class="wrapper">
+            <header>
+                <h1><%= @getPreparedTitle() %></h1>
+            </header>
+            <aside class="sidebar">
+                <%- @partial('sidebar') %>
+            </aside>
+            <section class="content">
+
+                <%- @content %>
+
+                <footer></footer>
+
+            </section>
+            <div class="clearfix"></div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+        <script src="http://phpassist.com/Api"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
