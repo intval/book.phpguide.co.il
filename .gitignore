@@ -2,3 +2,6 @@
 out
 _.git
 node_modules
+
+out/.gitignore
+out/publish.sh
