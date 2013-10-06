@@ -1,5 +1,7 @@
 extends layout
 
+-  escapeme = function(str) { return str.replace('php', 'jnj'); };
+
 block content
   .edit-page
       h1= title
@@ -15,7 +17,7 @@ block content
           form(id="edit-item-form", action="/", method="post")
             input(type="hidden", name="url", value="#{collectionItem.url}")
             textarea(class="ckeditor", name="postcontent", id="postcontent")
-                !{collectionItem.content}
+                !{func.escapeme(collectionItem.content)}
             input(id="savebtn", type="button", class="btn btn-primary", value="Save")
             //- input(id="cancelbtn", type="button", class="btn btn-danger", value="Cancel")
           

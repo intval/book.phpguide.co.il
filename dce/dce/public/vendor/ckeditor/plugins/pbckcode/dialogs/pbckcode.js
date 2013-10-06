@@ -9,8 +9,8 @@ CKEDITOR.dialog.add('pbckcodeDialog', function ( editor ) {
 
     // default settings object
     var DEFAULT_SETTINGS = {
-        cls   : '',
-        modes :  [ ['PHPAssist', 'code php phpassist'], ['PHP', 'code php'], ['JS', 'code javascript'] ],
+        cls   : 'code',
+        modes :  [ ['PHP_live', 'php_live'], ['PHP', 'php'], ['JS', 'javascript'], ['HTML', 'html'] ],
         theme : 'textmate'
     };
 
@@ -51,7 +51,7 @@ CKEDITOR.dialog.add('pbckcodeDialog', function ( editor ) {
                     }
                 },
                 onChange  : function(element) {
-                    AceEditor.getSession().setMode("ace/mode/" + this.getValue());
+                    AceEditor.getSession().setMode("ace/mode/" + this.getValue().replace('_live', ''));
                 }
             },
             {
@@ -80,7 +80,7 @@ CKEDITOR.dialog.add('pbckcodeDialog', function ( editor ) {
         onLoad : function() {
             // we load the ACE plugin to our div
             AceEditor = ace.edit("code_" + editor.codeId);
-            AceEditor.getSession().setMode("ace/mode/" + settings.modes[0][1]);
+            AceEditor.getSession().setMode("ace/mode/" + settings.modes[0][1].replace('_live', ''));
             AceEditor.setTheme("ace/theme/" + settings.theme);
 
             // save the AceEditor into the editor object for the resize event

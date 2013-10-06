@@ -13,7 +13,9 @@ docpadConfig = {
         default: ->
             @getCollection("html").findAllLive().on 'add', (document) ->
                 permalink = document.get('permalink')
-                document.set('filename', functions.makeSlug(document.get('title')))
+                unless permalink
+                    permalink = functions.makeSlug(document.get('title'))
+                document.set('filename', permalink)
                 #document.set('relativePath',document.get('relativePath').replace('posts/',''))
 
                 #document.set('url', document.get('url').replace('posts/', ''))

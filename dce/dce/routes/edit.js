@@ -8,7 +8,16 @@ exports.index = function(req, res){
         //Track down the post for editing
         fileJSON = utils.getFileFromSlug(req.query.slug);   
     }
-    
+
+    var escapeme = function(str)
+    { return str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    };
+
     res.locals.collectionItem = fileJSON;
-    res.render('edit', { title: 'Edit Collection Item' });
+    res.render('edit', { title: 'Edit Collection Item', func: {'escapeme': escapeme} });
 };

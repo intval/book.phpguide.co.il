@@ -39,7 +39,7 @@ CKEDITOR.editorConfig = function( config ) {
 
 
     // book.phpguide.co.il
-    config.contentsLangDirection = 'rtl'
+    config.contentsLangDirection = 'rtl';
     config.contentsLanguage = 'he';
     config.height = '400px';
     config.extraPlugins = 'pbckcode';

@@ -4,25 +4,11 @@ title: מבוא
 order: 200
 ---
 
-<p>h1. מהo קורה ?1 זה ס2פר oPHP בתכנון</p>
+<p>שדגכשדגכ</p>
 
-<p>should be deployed2</p>
-
-<pre class="code php phpassist " data-pbcklang="code php phpassist">
-<!--?php
-echo 'hi';
-
-/* comma 
-sa 
-va?
-
-echo "מה הבעיה?";
-
-merci, bien!
-*/
-
-die('must die');</pre-->
+<pre class="php_live code" data-pbcklang="php_live">
+&lt;?php echo &#39;highlander&#39;;
 
 </pre>
 
-<p>o</p>
+<p>&nbsp;</p>
