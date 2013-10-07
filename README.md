@@ -33,6 +33,10 @@ You can manually `cd` to it and just run `node app` within the `dce/dce` subdire
 
 5. Visit your site at `localhost:9778` and the editting panel at `localhost:3000`  
 
+6. After bringing it to perfection, commit and push the changes to your repository and open a pull request via github. 
+
+7. Wait for me to deploy it to `github pages` and bring it online. Should take about 48 hours after your pull request.
+
 
 In case of any problems do not hesistate to email me at `Alex@phpguide`
 
