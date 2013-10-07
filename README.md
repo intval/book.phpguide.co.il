@@ -1,7 +1,7 @@
 Open, crowd-source written php book in hebrew for beginners
 ===================
 
-book.phpguide.co.il is an attempt to create a php book for beginniers by the community. It aim's to provide high quality good learning material to the very beginners sourcing the knowledge of the community, rather than a single author.
+[book.phpguide.co.il](http://book.phpguide.co.il) is an attempt to create a php book for beginniers by the community. It aims to provide high quality good learning material to the very beginners sourcing the knowledge of the community, rather than a single author.
 
 Editting this book
 ------------------
@@ -9,16 +9,16 @@ General guidlines about what to do and how to make this book a perfect learning 
 
 Technical how-to
 ----------------
-This book is a static generated content using [docpad](http://docpad.org/). It has a built in editor for text and code we can use to write the chapters, but making it run is not very trivial.
+This book is a static generated content using [docpad](http://docpad.org/). It has a built in editor for text and code we can use to write the chapters, but making it not very trivial for a php developer.
 Docpad is a javascript application running on top of node.js, therefore you'll need a server with node.js installed. I completely understand this is not trivial and may reduce the amount of people able to contribute, but this threshold might also keep wanna-be's away.
-Anyway, I'd happily convert it to run on a php static site generator, such as Phrozn or Sculpin if thore would enable interactive editting like this one. 
+Anyway, I'd happily convert it to run on a php static site generator, such as Phrozn or Sculpin if those would provide interactive editting ability like does this one. 
 
 Setup
 ------------
 1. Install `nodejs`  
 on Debian: `sudo apt-get install nodejs npm`  
 on Centos: `yum install nodejs npm`  
-on Windows: erm..  
+on Windows: erm..  [Download](http://nodejs.org/download/), click next, next
 [more instructions if you need here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)  
 
 
