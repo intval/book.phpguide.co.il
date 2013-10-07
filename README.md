@@ -15,22 +15,23 @@ Anyway, I'd happily convert it to run on a php static site generator, such as Ph
 
 Setup
 ------------
-1. Install `nodejs`
-Debian: `sudo apt-get install nodejs npm` [more instructions if you need here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
-Centos: `yum install nodejs npm`
+1. Install `nodejs`  
+on Debian: `sudo apt-get install nodejs npm`  
+on Centos: `yum install nodejs npm`  
+on Windows: erm..  
+[more instructions if you need here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)  
 
-2. Fork and clone this repository to your machine
-![Fork](http://i.imgur.com/jLV54u7.png)
 
-3. Navigate to the folder on your machine and run node_modules installation
+2. Fork and clone this repository to your machine  
+
+3. Navigate to the folder on your machine and install the node modules    
 `sudo npm install`
 
-4. Run the project
-`(cd dce/dce && node app)`
-`dce` is the editor I use for the book editting and it's shipped within the repository.
-You can manually `cd` to it and just run `node app` within the `dce/dce` subdirectory
+4. Run the project: `(cd dce/dce && node app)`  
+[Dce](https://github.com/cauld/docpad-plugin-dce) is the docpad editor plugin I use for the book editting and it's shipped within the repository.  
+You can manually `cd` to it and just run `node app` within the `dce/dce` subdirectory  
 
-5. Visit your site at `localhost:9778` and the editting panel at `localhost:3000`
+5. Visit your site at `localhost:9778` and the editting panel at `localhost:3000`  
 
 
 In case of any problems do not hesistate to email me at `Alex@phpguide`
