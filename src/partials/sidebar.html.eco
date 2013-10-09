@@ -1,3 +1,5 @@
+<!-- todo (alex): instead of hardcoding links - read the collection of documents ordered by order property -->
+
 <ul>
     <li><a href="/index.html">ספר <span class="caps">PHP</span></a>
         <ul>

@@ -29,6 +29,9 @@
             <div class="clearfix"></div>
         </div>
 
+
+        <a href="https://github.com/intval/book.phpguide.co.il"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork us on GitHub"></a>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
         <script src="http://phpassist.com/Api"></script>
