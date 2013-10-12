@@ -2,7 +2,7 @@
 
 <ul>
     <li><a style='color:#505aff; font-weight:bold;' href="עריכת-הספר.html">עזור בכתיבה</a></li>
-    <li><a href="/index.html">הקדמה</a></li>
+    <li><a href="/index.html">הקדמה</a>
         <ul>
             <li><a href="מבוא.html">
 מבוא ל-PHP
