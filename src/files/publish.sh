@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "publish.sh\n.gitignore" > .gitignore
+echo -e "publish.sh\n.gitignore\n*.less" > .gitignore
 
 git init .
 git add .
