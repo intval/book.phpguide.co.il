@@ -1,10 +1,11 @@
 <!-- todo (alex): instead of hardcoding links - read the collection of documents ordered by order property -->
 
 <ul>
-    <li><a href="/index.html">ספר <span class="caps">PHP</span></a>
+    <li><a style='color:#505aff; font-weight:bold;' href="עריכת-הספר.html">עזור בכתיבה</a></li>
+    <li><a href="/index.html">הקדמה</a>
         <ul>
             <li><a href="מבוא.html">
-מבוא ל-php
+מבוא ל-PHP
             </a></li>
             <li><s><a href="התקנת-php.html">התקנה והפעלה</a></s></li>
             <li><s><a href="סקריפט-php-ראשון.html">הסקריפט הראשון</a></s></li>
@@ -41,7 +42,4 @@
             <li><s><a href="פונקציות-מערכים.html">פונקציות מובנות</a></s></li>
             <li><s><a href="בוחן-מערכים.html">בוחן פתע</a></s></li>
         </ul></li>
-</ul>
-<ul>
-    <li><a style='color:#505aff; font-weight:bold;' href="עריכת-הספר.html">כתוב פרק</a></li>
 </ul>
