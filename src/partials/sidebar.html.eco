@@ -1,7 +1,7 @@
 <!-- todo (alex): instead of hardcoding links - read the collection of documents ordered by order property -->
 
 <ul>
-    <li><a style='color:#505aff; font-weight:bold;' href="עריכת-הספר.html">עזור בכתיבה</a></li>
+    <li style="margin-bottom: 1em;"><a style="color:#505aff; font-weight:bold;" href="עריכת-הספר.html">עזור בכתיבה</a></li>
     <li><a href="/index.html">הקדמה</a>
         <ul>
             <li><a href="מבוא.html">
