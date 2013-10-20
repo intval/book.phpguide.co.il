@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "docpad": "latest",
-    "docpad-plugin-dce": "0.9.2",
+    "docpad-plugin-dce": "git+https://github.com/intval/docpad-plugin-dce.git",
     "docpad-plugin-eco": "latest",
     "docpad-plugin-partials": "latest",
     "docpad-plugin-less": "~2.2.0",

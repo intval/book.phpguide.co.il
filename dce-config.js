@@ -9,7 +9,8 @@
 */
 var config = {
     useHttpAuth: false, //true or false
-    collectionsAvailableForEdit: ['html'] //(e.g.) posts
+    collectionsAvailableForEdit: ['html'], //(e.g.) posts
+    layoutDirection: "rtl"
 };
 
 module.exports = config;
