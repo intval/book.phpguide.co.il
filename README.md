@@ -18,30 +18,19 @@ Setup
 1. Install `nodejs`  
 on Debian: `sudo apt-get install nodejs npm`  
 on Centos: `yum install nodejs npm`  
-on Windows: erm..  [Download](http://nodejs.org/download/), click next, next
-[more instructions if you need here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)  
+on Windows:[Download](http://nodejs.org/download/), click next, next
+
+2. Run npm install
+`npm install`
+
+3. Run the project: Double click on `run.bat`
+This will also work on unix from shell: just `./run.bat`.
 
 
-2. Fork and clone this repository to your machine  
-
-3. Navigate to the folder on your machine and install the node modules    
-`sudo npm install`
-
-4. Run the project: `(cd dce/dce && node app)`  
-[Dce](https://github.com/cauld/docpad-plugin-dce) is the docpad editor plugin I use for the book editting and it's shipped within the repository.  
-You can manually `cd` to it and just run `node app` within the `dce/dce` subdirectory  
-
-5. Visit your site at `localhost:9778` and the editting panel at `localhost:3000`  
-
-6. After bringing it to perfection, commit and push the changes to your repository and open a pull request via github. 
-
-7. Wait for me to deploy it to `github pages` and bring it online. Should take about 48 hours after your pull request.
+That's it, the site and admin panel are ready.  
+[Site: http://localhost:9778](http://localhost:9778)  
+[Admin: http://localhost:3000](http://localhost:3000)  
 
 
+Please submit your pull requests via github.
 In case of any problems do not hesistate to email me at `Alex@phpguide`
-
-
-
-
-
-
