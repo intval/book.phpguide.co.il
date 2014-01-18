@@ -1,45 +1,129 @@
 <!-- todo (alex): instead of hardcoding links - read the collection of documents ordered by order property -->
 
+<!-- Each comment in the sidebar applies to the 
+       chapter mentioned in the next line only, even when nested. -->
+
 <ul>
+
     <li style="margin-bottom: 1em;"><a style="color:#505aff; font-weight:bold;" href="עריכת-הספר.html">עזור בכתיבה</a></li>
-    <li><a href="/index.html">הקדמה</a>
+
+            <!-- The book site home page -->
+    <li><a href="index.html">הקדמה</a>
         <ul>
-            <li><a href="מבוא.html">
-מבוא ל-PHP
-            </a></li>
-            <li><s><a href="התקנת-php.html">התקנה והפעלה</a></s></li>
-            <li><s><a href="סקריפט-php-ראשון.html">הסקריפט הראשון</a></s></li>
-        </ul></li>
-    <li><s><a href="משתנים.html">משתנים</a></s>
+
+            <!-- What PHP is; about the book... -->
+            <li><a href="מבוא.html">מבוא ל-PHP</a></li>
+
+            <!-- Setting up a web server with PHP on various OSs;
+                 Basic explanation about development enviroment,
+                 and references for good, free IDEs. -->
+            <li><s><a href="התקנה-והפעלה.html">התקנה והפעלה</a></s></li>
+
+            <!-- PHP tags, comments and whitespaces;
+                 PHP statements, explanation of
+                 functions & keywords (language constructs),
+                 "Hello world" script. -->
+            <li><s><a href="היכרות-בסיסית-עם-השפה.html">היכרות בסיסית עם השפה</a></s></li>
+
+        </ul>
+    </li>
+
+    <li><s>נתונים</s>
         <ul>
-            <li><s><a href="סוגי-נתונים.html">סוגי נתונים</a></s></li>
-            <li><s><a href="אופרטורים.html">פעולות</a></s></li>
-            <li><s><a href=".קבועים.html">קבועים</a></s></li>
-            <li><s><a href="בוחן-משתנים.html">בוחן פתע</a></s></li>
-            <li><s><a href="חיבור-וחיסור-שטויות.html">על חיבור וחיסור שטויות</a></s></li>
-        </ul></li>
-    <li><s><a href="מבני-בקרה.html">מחליטים מה לעשות</a></s>
+
+            <!-- Data - introduction;
+                 Primitive types, Complex/Composite types, Special types;
+                 Literals; Type juggling & casting. -->
+            <li><s><a href="טיפוסי-נתונים-וליטרלים.html">טיפוסי נתונים וליטרלים</a></s></li>
+
+            <!-- Variables - introduction;
+                 Identifiers; Naming conventions; Assigning variables;
+                 Type strength; Variable variables; -->
+            <li><s><a href="משתנים.html">משתנים</a></s></li>
+
+            <!-- References - what they are and what they are not;
+                 Assigning by reference vs. by value. -->
+            <li><s><a href="הפניות.html">הפניות</a></s></li>
+
+            <!-- Constants - introduction; Defining constants.
+                 Naming conventions. -->
+            <li><s><a href="קבועים.html">קבועים</a></s></li>
+
+            <!-- Expressions, expressions everywhere.
+                 Operators - introduction;
+                 Arithmetic operators, Assignment operators, Comparison operators,
+                 Incrementing/Decrementing operators, Logical operators
+                 String operators and Operator presedence;
+                 A bonus section about Bitwise operators. -->
+            <li><s><a href="אופרטורים-וביטויים.html">אופרטורים וביטויים</a></s></li>
+
+        </ul>
+    </li>
+
+            <!-- Control structures - a short introduction. -->
+    <li><s><a href="מבוא-למבני-בקרה.html">מבני בקרה</a></s>
         <ul>
-            <li><s><a href="לולאות.html">לולאות</a></s></li>
+
+            <!-- if, else, if-elseif-else;
+                 switch-case; break, continue. -->
             <li><s><a href="תנאים.html">תנאים</a></s></li>
-            <li><s><a href="פונקציות.html">פונקציות</a></s></li>
-            <li><s><a href="בוחן-מבני-בקרה.html">מבדק</a></s></li>
-        </ul></li>
-    <li><s><a href="פונקציות.html">פונקציות מובנות</a></s>
+
+            <!-- for, foreach, while, do-while;
+                 break, continue. -->
+            <li><s><a href="לולאות.html">לולאות</a></s></li>
+
+            <li><s><a href="מבני-בקרה-מקוננים.html">מבני בקרה מקוננים</a></s></li>
+
+            <li><s><a href="תחביר-חלופי-למבני-בקרה.html">תחביר חלופי למבני בקרה</a></s></li>
+
+        </ul>
+    </li>
+
+            <!-- Arrays - introduction. -->
+    <li><s><a href="מבוא-למערכים.html">מערכים</a></s>
         <ul>
-            <li><s><a href="שעה-ותאריך.html">שעה ותאריך</a></s></li>
-            <li><s><a href="פונקציות-מתמטיות.html">קצת מתמטיקה</a></s></li>
-            <li><s><a href="עבודה-עם-קבצים.html">עבודה עם קבצים</a></s></li>
-            <li><s><a href="תרגיל-קבצים.html">שיעורי בית</a></s></li>
-            <li><s><a href="בוחן-פונקציות.html">בחן אותנו</a></s></li>
-        </ul></li>
-    <li><s><a href="מערכים.html">מערכים</a></s>
-        <ul>
-            <li><s><a href="מערכים2.html">ממממההההה?</a></s></li>
-            <li><s><a href="מערכים3.html">יש הסבר יותר פשוט על מערכים?</a></s></li>
-            <li><s><a href="מערכים4.html">איך ניגשים לערכים</a></s></li>
+
+            <!-- Specifying with array() and the short syntax; Auto-casting in array keys;
+                   Accessing array elements; reating/modifying array elements. -->
+            <li><s><a href="עבודה-בסיסית-עם-מערכים.html">עבודה בסיסית עם מערכים</a></s></li>
+
+            <!-- Converting scalar types to arrays; Array Operators.-->
+            <li><s><a href="אופרטורים-לעבודה-עם-מערכים.html">אופרטורים לעבודה עם מערכים</a></s></li>
+
+            <!-- Multi-dimensional arrays: theory and practice. -->
+            <li><s><a href="מערכים-רב-ממדיים.html">מערכים רב ממדיים</a></s></li>
+
+            <!-- foreach and other loops with arrays -->
             <li><s><a href="לולאות-ומערכים.html">לולאות ומערכים</a></s></li>
-            <li><s><a href="פונקציות-מערכים.html">פונקציות מובנות</a></s></li>
-            <li><s><a href="בוחן-מערכים.html">בוחן פתע</a></s></li>
-        </ul></li>
+
+            <li><s><a href="פונקציות-שימושיות-לעבודה-עם-מערכים.html">פונקציות שימושיות לעבודה עם מערכים</a></s></li>
+
+        </ul>
+    </li>
+
+             <!-- Functions - introduction;
+                  basic declaration and naming conventions. -->
+    <li><s><a href="מבוא-לפונקציות.html">פונקציות</a></s>
+        <ul>
+
+            <!-- Function parameters & arguments - explanation;
+                 Making arguments be passed by reference;
+                 Default parameter values; -->
+            <li><s><a href="פרמטרים-של-פונקציות.html">פרמטרים</a></s></li>
+
+            <!-- The return keyword; Using arrays to return multiple values; Array dereferencing. -->
+            <li><s><a href="החזרת-ערך-מפונקציה.html">החזרת ערך</a></s></li>
+
+            <li><s><a href="פונקציות-משתנים.html">פונקציות משתנים</a></s></li>
+
+            <!-- Variable scope - local, global and superglobal;
+                 The global keyword. -->
+            <li><s><a href="תחום-הגדרה-של-משתנים.html">תחום הגדרה של משתנים</a></s></li>
+
+            <!-- Lambda functions and Closures. -->
+            <li><s><a href="פונקציות-אנונימיות.html">פונקציות אנונימיות</a></s></li>
+
+        </ul>
+    </li>
+
 </ul>
